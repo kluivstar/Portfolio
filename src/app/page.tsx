@@ -9,7 +9,7 @@ export default function Home() {
         {/* Bio Intro */}
         <div className="px-10 py-15 leading-8 xl:w-[60%] xl:mt-112 2xl:mt-237">
           <h1 className="text-[14px] md:text-[15px] lg:text-[15px] 2xl:text-[30px] font-bold tracking-widest">KASIMU KLUIVERT</h1>
-          <span className="text-[12px] md:text-[13px] lg:text-[14px] 2xl:text-[25px]">Software Developer - AI Enthusiat - Wordpress Developer</span>
+          <span className="text-[12px] md:text-[13px] lg:text-[14px] 2xl:text-[25px]">Software Developer - AI Enthusiast - Wordpress Developer</span>
           <h2 className="text-[12px] 2xl:mt-5 md:text-[13px] lg:text-[15px] 2xl:text-[25px]">Currently working as a software developer at{" "}
             <a
               href="https://techcify.com"
