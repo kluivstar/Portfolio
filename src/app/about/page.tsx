@@ -38,40 +38,27 @@ const services = [
 
 const page = () => {
   return (
-    <main className='xl:px-30'>
+    <main className='lg:px-5'>
         {/* Bio */}
-        <section className='flex flex-col-reverse sm:flex-row px-10 py-14 md:justify-between md:gap-5 md:flex-row-reverse md:px-27'>
+        <section className='flex flex-col-reverse sm:flex-row px-8 py-14 md:justify-between space-x-5  md:px-27 xl:px-50 2xl:px-80'>
             
             {/* About content */}
-            <div className='py-10'>
-                
-
-                <div className='flex gap-3 justify-between space-x-4'>
-                  <div className='w-[65%]'>
-                    <h1 className='text-[18px] font-bold font-sarina text-left md:text-[40px] lg:text-[60px] xl:text-[90px]'>Who I Am</h1>
-                    
-                  </div>
-                  
-                  <div className="flex-shrink-0 md:px-10 -mt-12 w-[45%] xl:w-[35%] xl:mt-2">
-                      <Image 
-                      src={Profile} 
-                      alt="Denzel - Software Developer" 
-                      width={200} 
-                      className=" w-[90%] lg:w-[70%] xl:w-[70%] shadow-xl shadow-slate-600"
-                      />
-                  </div>
+            <div className='py-10 w-[100%] md:w-[100%] lg:w-[80%] 2xl:px-90'>
+                <div className=''>
+                    <h1 className='text-[22px] font-bold font-sarina text-left md:text-[50px] lg:text-[50px] xl:text-[90px] 2xl:text-[120px]'>Who I Am</h1>
                 </div>
 
-                <h1 className="text-[29px] md:text-4xl font-semibold text-slate-100 md:relative lg:text-[55px] xl:text-[65px]">
+                <h1 className="text-[29px] md:text-4xl mt-12 text-slate-100 md:relative lg:text-[46px]">
                     I Craft Code that Powers <br className='hidden xl:flex'/> Businesses
                 </h1>
 
-                <p className="text-gray-200 leading-8 text-[15px] 2xl:mt-5  lg:text-lg xl:text-[20px] 2xl:text-[25px] py-2">
-                I’m <span className="font-semibold text-[13px] 2xl:mt-5  lg:text-lg 2xl:text-[25px] xl:text-[20px]">Kasimu Kluivert (Denzel)</span> — a software developer passionate about 
+                <p className="text-gray-200 leading-8 text-[14px] 2xl:mt-5 py-2 lg:text-[14px] xl:text-[15px] 2xl:text-[20px]">
+                I’m <span className="font-semibold text-[14px] 2xl:mt-5  2xl:text-[20px]">Kasimu Kluivert (Denzel)</span> — a software developer passionate about 
                 building digital products that are practical, reliable, and scalable. 
                 I love transforming ideas into working solutions that help businesses 
                 and people achieve more with less friction. <br/>For me, code isn’t just 
                 about syntax, it’s about creating experiences that solve real problems.
+                <br/>I focus on building digital experiences that are clean, human-centered, and easy to use because tech should never get in the way of the people using it.
                 </p>
 
                 {/* Experience */}
@@ -79,9 +66,9 @@ const page = () => {
                   <h1 className="text-[29px] py-10 md:text-4xl font-bold text-slate-100 font-sarina lg:text-[40px]">
                     Experience
                   </h1>
-                  <p className="text-gray-200 leading-8 text-[15px] 2xl:mt-5  lg:text-lg 2xl:text-[25px] py-2 xl:text-[20px]">From freelance projects to agency work, I’ve built and optimized solutions across industries. My journey includes creating responsive landing pages, full-stack applications with React/Next.js, Node.js/Express, and MongoDB. Beyond writing code, I’ve learned how to communicate with clients, manage shifting requirements, and deliver under real-world constraints.
+                  <p className="text-gray-200 leading-8 text-[14px] 2xl:mt-5  py-2 lg:text-[14px] xl:text-[15px] 2xl:text-[20px]">From freelance projects to agency work, I’ve built and optimized solutions across industries. My journey includes creating responsive landing pages, full-stack applications with React/Next.js, Node.js/Express, and MongoDB. Beyond writing code, I’ve learned how to communicate with clients, manage shifting requirements, and deliver under real-world constraints.
                   </p>
-                  <ul className="list-disc list-inside space-y-3 text-gray-300 text-sm md:text-base lg:text-lg leading-8 xl:text-[20px]">
+                  <ul className="list-disc list-inside space-y-3 text-gray-300 text-[14px] leading-8 2xl:text-[20px]">
                     <li>
                       <span className="font-semibold text-white">Web Design:</span> 4 years creating modern, user-friendly designs that balance aesthetics with usability.
                     </li>
@@ -100,15 +87,18 @@ const page = () => {
                   <h1 className="text-[29px] py-10 md:text-4xl font-bold text-slate-100 font-sarina lg:text-[40px]">
                     Skills
                   </h1>
-                  <ul className="list-disc list-inside space-y-3 text-gray-300 text-sm md:text-base lg:text-lg leading-8 xl:text-[20px]">
+                  <ul className="list-disc list-inside space-y-3 text-gray-300 text-[14px] leading-8 2xl:text-[20px]">
                     <li>
-                      <span className="font-semibold text-white">Frontend:</span> React, Next.js, Tailwind CSS, Responsive Design, Wordpress
+                      <span className="font-semibold text-white">React & Next.js:</span> for building fast, user-friendly interfaces that feel smooth and intuitive
                     </li>
                     <li>
-                      <span className="font-semibold text-white">Backend:</span> Node.js, Express, MongoDB, PostgreSQL, Prisma
+                      <span className="font-semibold text-white">Node.js & Express:</span> to develop scalable back-ends, handle server-side logic, and build custom APIs
                     </li>
                     <li>
                       <span className="font-semibold text-white">Dev Tools:</span> Git, GitHub, Vercel, Netlify, Postman
+                    </li>
+                    <li>
+                      <span className="font-semibold text-white">WordPress:</span> when businesses need flexible, content-driven websites that are easy to manage
                     </li>
                     <li>
                       <span className="font-semibold text-white">Other:</span> API Integration, Payment Systems, Debugging & Optimization
@@ -123,16 +113,26 @@ const page = () => {
                 View CV
                 </a>
             </div>
+
+            {/* Image */}
+            <div className="flex-shrink-0 ml-42 md:ml-0 md:mt-0 -mt-10 w-[45%] md:w-[20%] lg:w-[20%] lg:mt-10 lg:-mr-0">
+                <Image 
+                src={Profile} 
+                alt="Denzel - Software Developer" 
+                width={200} 
+                className=" w-[35%] h-[18%] lg:w-[100%] absolute lg:relative md:z-10 md:w-[20%] md:h-[200px] 2xl:w-[100%] 2xl:h-[400px] 2xl:-ml-80"
+                />
+            </div>
         </section>
 
         {/* Service */}
-        <section className="py-16 bg-black-900 px-10 md:px-27">
-            <div className="mx-auto ">
+        <section className="py-16 bg-black-900 px-10 md:px-27 xl:px-50 2xl:px-90">
+            <div className="mx-auto 2xl:px-80">
             {/* Title */}
-                <h2 className="text-[18px] md:text-[22px] font-bold font-sarina text-left lg:text-[40px]">
+                <h2 className="text-[29px] md:text-[22px] font-bold font-sarina text-left lg:text-[40px]">
                     What I Offer.
                 </h2>
-                <h1 className='text-gray-300 text-[14px] py-5 lg:text-lg 2xl:text-[25px] md:px-10 md:-ml-10 xl:text-[20px]'>Every business has unique challenges, and I focus on creating digital solutions that are both functional and impactful.</h1>
+                <h1 className='text-gray-300 text-[14px] py-5 md:px-10 md:-ml-10 lg:px-25 lg:-ml-24 2xl:text-[20px]'>Every business has unique challenges, and I focus on creating digital solutions that are both functional and impactful.</h1>
 
                 {/* Grid */}
                 <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
@@ -143,7 +143,7 @@ const page = () => {
                     >
                         <div className="mb-4">{service.icon}</div>
                         <h3 className="text-xl text-slate-100 font-semibold mb-2 xl:text-[23px]">{service.title}</h3>
-                        <p className="text-gray-300 text-sm text-[14px] 2xl:mt-5 md:text-[13px] lg:text-[15px] 2xl:text-[25px] xl:text-[20px]">{service.description}</p>
+                        <p className="text-gray-300 text-[14px] 2xl:text-[18px] 2xl:mt-5 ">{service.description}</p>
                     </div>
                     ))}
                 </div>

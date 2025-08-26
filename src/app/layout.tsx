@@ -1,4 +1,4 @@
-import { Montserrat, Orbitron, Engagement } from "next/font/google";
+import { Montserrat, Orbitron } from "next/font/google";
 import "./globals.css";
 import Header from "./components/Header";
 
@@ -17,8 +17,8 @@ const orbitron = Orbitron({
 });
 
 export const metadata = {
-  title: "Portfolio",
-  description: "Personal portfolio website",
+  title: "Kasy Kluivert",
+  description: "Kasy Kluivert portfolio",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
