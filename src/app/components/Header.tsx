@@ -6,7 +6,7 @@ const Header = () => {
     <main className='flex flex-row justify-between -mr-5 sm:-mr-0 px-8 py-5 sm:px-14 md:px-27 lg:px-27 xl:px-58'>
         {/* Image */}
         <div className='flex'>
-            <Link href="/" className='text-[11px] font-bold  tracking-widest lg:text-[16px]'>KK</Link>
+            <Link href="/" className='text-[11px] font-bold tracking-widest lg:text-[16px]'>KK</Link>
             <span className="inline-block w-15 h-0.5 mt-2.5 bg-gray-500 mx-2 lg:mt-3.5"></span>
         </div>
         
