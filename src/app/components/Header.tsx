@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Header = () => {
   return (
-    <main className='flex flex-row justify-between -mr-5 sm:-mr-0 px-8 py-5 sm:px-14 md:px-27 lg:px-27 xl:px-58'>
+    <main className='flex flex-row justify-between -mr-5 sm:-mr-0 px-8 py-5 sm:px-14 md:px-27 lg:px-27 xl:px-52'>
         {/* Image */}
         <div className='flex'>
             <Link href="/" className='text-[11px] font-bold tracking-widest lg:text-[16px]'>KK</Link>
