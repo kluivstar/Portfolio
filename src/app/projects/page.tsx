@@ -18,11 +18,13 @@ export default function page() {
         <div className="text-left xl:w-[70%]">
             <ul className="px-10 text-[51.2px] max-sm:text-[42px] md:text-[65px] lg:text-[95px] 2xl:text-[95px] font-bold">
                 {[
-                { title: "2P Stores", desc: "E Commerce Brand", url: "https://2pstores.com" },
+                { title: "2P Stores", desc: "Web Engineer", url: "https://2pstores.com" },
                 { title: "Cimplii", desc: "Project", url: "https://cimplii.vercel.com" },
-                { title: "Insightoro", desc: "Website Analyzer", url: "https://insightoro.com" },
+                { title: "Stackria", desc: "Frontend Engineer", url: "https://stackria.com" },
                 
-                { title: "Colorful", desc: "Production Studio", url: "https://colorfulsoundesign.com" },
+                { title: "Colorful", desc: "Web Engineer", url: "https://colorfulsoundesign.com" },
+                { title: "JCH", desc: "Frontend Engineer — SEO & Optimization", url: "https://www.jimscreativehub.com/" },
+                { title: "Techcify", desc: "Software Engineer", url: "https://www.techcify.com/" },
                 ].map(({ title, desc, url }) => (
                 <li
                     key={title}
